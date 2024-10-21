@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".UserInfo.Fragments.CommunicationFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/phone"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.MyTheme.Headline3"/>
+
+        <TextView
+            android:id="@+id/phoneTv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="(272) 790-0888"
+            android:textIsSelectable="true"
+            android:textAppearance="@style/TextAppearance.MyTheme.Headline3"
+            android:layout_marginStart="8dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/cellphone"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.MyTheme.Headline3"/>
+
+        <TextView
+            android:id="@+id/cellphoneTv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="(489) 330-2385"
+            android:textIsSelectable="true"
+            android:textAppearance="@style/TextAppearance.MyTheme.Headline3"
+            android:layout_marginStart="8dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/email"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.MyTheme.Headline3"/>
+
+        <TextView
+            android:id="@+id/emailTv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="jennie.nichols@example.com"
+            android:textIsSelectable="true"
+            android:maxLines="2"
+            android:lineSpacingExtra="4dp"
+            android:textAppearance="@style/TextAppearance.MyTheme.Headline3"
+            android:layout_marginStart="8dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

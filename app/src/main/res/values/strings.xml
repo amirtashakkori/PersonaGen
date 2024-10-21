@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">PersonaGen</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="first_name">First name :</string>
+    <string name="last_name">Last name :</string>
+    <string name="gender">Gender :</string>
+    <string name="age">Age :</string>
+    <string name="dob">Date of birth :</string>
+    <string name="country">Country :</string>
+    <string name="state">State :</string>
+    <string name="city">City :</string>
+    <string name="nationality">Nationality :</string>
+    <string name="address">Address :</string>
+    <string name="post_code">Post Code :</string>
+    <string name="phone">Phone :</string>
+    <string name="cellphone">CellPhone :</string>
+    <string name="email">Email :</string>
+    <string name="username">Username :</string>
+    <string name="dor">Date of register :</string>
+    <string name="hello_text">Hi how are you today? \nI’m</string>
+    <string name="choose_the_the_gender">Select Gender :</string>
+    <string name="generate">Generate</string>
+    <string name="choose_the_nationality">Select Nationality :</string>
+    <string name="delete">Delete</string>
+    <string name="no_internet_user_generating">For generating a new user, you need an internet connection. Please check your connection and try again.</string>
+    <string name="not_internet_load_image">For loading the images, you need an internet connection. Please check your connection</string>
+    <string name="generate_user">Generate user</string>
+
+    <string-array name="nationalities">
+        <item name="us">United State</item>
+        <item name="uk">United Kingdom</item>
+        <item name="au">Australia</item>
+        <item name="ca">Canada</item>
+        <item name="ch">Switzerland</item>
+        <item name="de">Germany</item>
+        <item name="es">Spain</item>
+        <item name="fr">France</item>
+        <item name="tr">Turkey</item>
+        <item name="ua">Ukraine</item>
+        <item name="nl">Netherlands</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item name="male">Male</item>
+        <item name="female">Female</item>
+    </string-array>
+
+
+</resources>

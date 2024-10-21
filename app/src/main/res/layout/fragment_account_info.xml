@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".UserInfo.Fragments.AccountInfoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/username"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.MyTheme.Headline3"/>
+
+        <TextView
+            android:id="@+id/userNameTv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="yellowpeacock117"
+            android:textIsSelectable="true"
+            android:textAppearance="@style/TextAppearance.MyTheme.Headline3"
+            android:layout_marginStart="8dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Password : "
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.MyTheme.Headline3"/>
+
+        <TextView
+            android:id="@+id/passwordTv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="addison"
+            android:textIsSelectable="true"
+            android:textAppearance="@style/TextAppearance.MyTheme.Headline3"
+            android:layout_marginStart="8dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/dor"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.MyTheme.Headline3"/>
+
+        <TextView
+            android:id="@+id/dorTv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="2007-07-09"
+            android:maxLines="1"
+            android:textIsSelectable="true"
+            android:textAppearance="@style/TextAppearance.MyTheme.Headline3"
+            android:layout_marginStart="8dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

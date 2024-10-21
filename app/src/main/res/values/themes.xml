@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PersonaGen" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/end_color</item>
+<!--        <item name="colorAccent">@color/end_color</item>-->
+        <item name="fontFamily">@font/popping_regular</item>
+        <item name="backgroundColor">@color/white</item>
+        <item name="android:textColor">@color/end_color</item>
+    </style>
+
+    <style name="Theme.PersonaGen" parent="Base.Theme.PersonaGen" />
+
+    <style name="popUpMenuStyle" parent="@style/Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">@drawable/bg_item_popup_menu</item>
+    </style>
+
+</resources>

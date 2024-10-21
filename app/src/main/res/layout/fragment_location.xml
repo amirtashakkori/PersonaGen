@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".UserInfo.Fragments.LocationFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/country"
+            android:textAppearance="@style/TextAppearance.MyTheme.Headline3"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/countryTv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="United State"
+            android:textIsSelectable="true"
+            android:textAppearance="@style/TextAppearance.MyTheme.Headline3"
+            android:layout_marginStart="8dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/state"
+            android:textAppearance="@style/TextAppearance.MyTheme.Headline3"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/stateTv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Michigan"
+            android:textIsSelectable="true"
+            android:textAppearance="@style/TextAppearance.MyTheme.Headline3"
+            android:layout_marginStart="8dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/city"
+            android:textAppearance="@style/TextAppearance.MyTheme.Headline3"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/cityTv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Billings"
+            android:textIsSelectable="true"
+            android:textAppearance="@style/TextAppearance.MyTheme.Headline3"
+            android:layout_marginStart="8dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/nationality"
+            android:textAppearance="@style/TextAppearance.MyTheme.Headline3"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/nationalityTv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="US"
+            android:textIsSelectable="true"
+            android:textAppearance="@style/TextAppearance.MyTheme.Headline3"
+            android:layout_marginStart="8dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/address"
+            android:textAppearance="@style/TextAppearance.MyTheme.Headline3"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/addressTv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="8929 Valwood Pkwy"
+            android:lineSpacingExtra="4dp"
+            android:textIsSelectable="true"
+            android:textAppearance="@style/TextAppearance.MyTheme.Headline3"
+            android:layout_marginStart="8dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/post_code"
+            android:textAppearance="@style/TextAppearance.MyTheme.Headline3"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/postCodeTv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="63104"
+            android:textIsSelectable="true"
+            android:textAppearance="@style/TextAppearance.MyTheme.Headline3"
+            android:layout_marginStart="8dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".UserInfo.Fragments.PersonalInfoFragment"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/first_name"
+            android:textAppearance="@style/TextAppearance.MyTheme.Headline3"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/userNameTv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Andrew"
+            android:textIsSelectable="true"
+            android:textAppearance="@style/TextAppearance.MyTheme.Headline3"
+            android:layout_marginStart="8dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/last_name"
+            android:textAppearance="@style/TextAppearance.MyTheme.Headline3"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/userLastNameTv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Tate"
+            android:textIsSelectable="true"
+            android:textAppearance="@style/TextAppearance.MyTheme.Headline3"
+            android:layout_marginStart="8dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/gender"
+            android:textAppearance="@style/TextAppearance.MyTheme.Headline3"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/userGenderTv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Male"
+            android:textIsSelectable="true"
+            android:textAppearance="@style/TextAppearance.MyTheme.Headline3"
+            android:layout_marginStart="8dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/age"
+            android:textAppearance="@style/TextAppearance.MyTheme.Headline3"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/userAgeTv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="30"
+            android:textIsSelectable="true"
+            android:textAppearance="@style/TextAppearance.MyTheme.Headline3"
+            android:layout_marginStart="8dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/dob"
+            android:textAppearance="@style/TextAppearance.MyTheme.Headline3"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/dobTv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="1992-03-08"
+            android:textIsSelectable="true"
+            android:textAppearance="@style/TextAppearance.MyTheme.Headline3"
+            android:layout_marginStart="8dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,7 +1,7 @@
 # PersonaGen
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="https://github.com/user-attachments/assets/a2cfd4e8-9858-4bd9-b088-c60222206b83" alt="GIF 1" width="300" height="600">
+  <img src="https://github.com/user-attachments/assets/a2cfd4e8-9858-4bd9-b088-c60222206b83" alt="GIF 1" width="200" height="400">
   <img src="https://github.com/user-attachments/assets/a792a509-9158-4fb3-b401-9c5e64ce7552" alt="GIF 2" width="300" height="600">
 </div>
 

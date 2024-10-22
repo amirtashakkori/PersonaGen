@@ -1,7 +1,9 @@
 # PersonaGen
 
-![DarkMode-gif](https://github.com/user-attachments/assets/a2cfd4e8-9858-4bd9-b088-c60222206b83) ![LightMode_gif](https://github.com/user-attachments/assets/a792a509-9158-4fb3-b401-9c5e64ce7552)
-
+<div style="display: flex; justify-content: space-around;">
+  <img src="https://github.com/user-attachments/assets/a2cfd4e8-9858-4bd9-b088-c60222206b83" alt="GIF 1" width="200" height="200">
+  <img src="https://github.com/user-attachments/assets/a792a509-9158-4fb3-b401-9c5e64ce7552" alt="GIF 2" width="200" height="200">
+</div>
 
 PersonaGen is a user-generation app that allows you to create and manage a list of random users based on selected nationality and gender. It fetches user data such as name, location, and other personal details from the RandomUser.me API, and stores it locally for offline access. The app is built using the MVVM architecture, RxJava for reactive programming, and Material Design components for an intuitive and modern UI. A built-in network connection check ensures that users are notified when they're offline, keeping the user experience seamless.
 
